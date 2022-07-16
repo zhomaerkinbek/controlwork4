@@ -1,8 +1,4 @@
-import java.lang.reflect.Array;
-import java.text.ParseException;
 import java.util.*;
-import java.util.function.Function;
-import java.util.stream.IntStream;
 
 public class Main {
     static final Scanner console = new Scanner(System.in);

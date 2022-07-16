@@ -17,7 +17,7 @@ public final class Printer {
 
     private static final void printCat(Cat cat) {
         n++;
-        System.out.println(String.format("%3.3s | %10.10s | %-10.10s | %-10.10s | %-10.10s | %-7.7s | %-15.15s |",
+        System.out.println(String.format("%3.3s | %10.10s |     %-4.4s   |     %-4.4s   |     %-4.4s   |   %-3.3s   |        %-5.5s    |",
                                          n, (cat.isPlayed() ? "* " : "") + cat.getName(), cat.getAge(), cat.getHealth(), cat.getMood(), cat.getSatiety(), cat.getAverage()));
     }
     public static final void print(List<Cat> cats) {
